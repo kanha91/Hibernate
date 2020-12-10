@@ -26,10 +26,10 @@ public class App
         //create student
         
         Student st =new Student();
-        st.setId(002);
-        st.setName("Krishna Singh");
-        st.setMobile("9661260690");
-        st.setCity("Daudpur");
+        st.setId(004);
+        st.setName("Pragya Shrivatsav");
+        st.setMobile("9690453822");
+        st.setCity("Varanasi");
         System.out.println(st);
         //Hibernate 
         Session sec	= factory.openSession();
