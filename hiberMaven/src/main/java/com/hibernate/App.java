@@ -15,11 +15,13 @@ public class App
     {
         System.out.println( "Project Started...." );
        
-//        Configuration cfg = new Configuration();
-//        cfg.configure();
-//        SessionFactory factory = cfg.buildSessionFactory();
-        SessionFactory factory = new Configuration().configure().buildSessionFactory();
-        //factory.getCurrentSession();
+        Configuration cfg = new Configuration();
+        cfg.configure();
+        SessionFactory factory = cfg.buildSessionFactory();
+//		/*
+//		 * SessionFactory factory = new
+//		 * Configuration().configure().buildSessionFactory();
+//		 */        //factory.getCurrentSession();
         
         
         
